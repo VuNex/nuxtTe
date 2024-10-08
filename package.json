@@ -10,8 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@prisma/client": "^5.20.0",
     "nuxt": "^3.13.0",
+    "prisma": "^5.20.0",
     "vue": "latest",
     "vue-router": "latest"
-  }
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.5.5",
+    "@pinia/nuxt": "^0.5.5",
+    "@prisma/nuxt": "^0.0.35"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VuNex/nuxtTe.git",
+  "author": "Dmitry <nizhnik.dm@gmail.com>",
+  "license": "MIT"
 }
